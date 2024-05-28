@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #161b22;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+/* About me section */
+
+.about-me {
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    filter: grayscale(100%);
+}
+
+.profile-img:hover {
+    filter: grayscale(0%);
+}
+
+.about-me-text {
+    max-width: 100%;
+}
+
+.about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.linkedin-logo {
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px
+}
+
+/* Card Styles */
+
+.card {
+    background-color: #21262d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card a {
+    color: #58a6ff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: #1f6feb;
+}
